@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
+
 void main() {
 	string S = "��â��", P = "��Ƽ��", J = "������";
 	int money[6] = {}, sum[6] = {}, choice, win[3] = {};
