@@ -10,5 +10,7 @@ int main() {
 			cin >> T[i][j];
 	}
 
+//umm..
+
 	return 0;
 }
