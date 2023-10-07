@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-
     int G[3][3], L[3][3], i, j, Gt[3], Lt[3];
 
     for (i = 0; i < 3; i++) {
