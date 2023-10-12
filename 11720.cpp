@@ -1,6 +1,5 @@
-// ¼ıÀÚÀÇ ÇÕ
+// Â¼Ã½Ã€ÃšÃ€Ã‡ Ã‡Ã•
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main() {
@@ -8,11 +7,11 @@ int main() {
 
 	cin >> n;
 
-	int* N = new int[n]();
+	char* N = new char();
 
 	for (i = 0; i < n; i++) {
-		cin >> N[i];
-		sum += N[i];
+		cin >> *(N + i);
+		sum += *(N + i) - '0';
 	}
 
 	cout << sum;
