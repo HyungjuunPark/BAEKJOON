@@ -1,4 +1,4 @@
-// Æò±Õ Á¡¼ö
+// Ã†Ã²Â±Ã• ÃÂ¡Â¼Ã¶
 #include <iostream>
 using namespace std;
 
@@ -11,6 +11,7 @@ int main() {
 			score[i] = 40;
 		avg += score[i];
 	}
+	
 	avg /= 5;
 
 	cout << avg;
