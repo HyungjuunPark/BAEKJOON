@@ -1,4 +1,4 @@
-// °ú¸ñ¼±ÅÃ
+// Â°ÃºÂ¸Ã±Â¼Â±Ã…Ãƒ
 #include <iostream>
 using namespace std;
 
@@ -25,7 +25,6 @@ int main() {
 		sum += B[0];
 
 	cout << sum;
-	
 
 	return 0;
 }
