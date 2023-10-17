@@ -28,6 +28,7 @@ int main() {
 		else
 			result[2] = n[i];
 	}
+	
 	cout << result[0] << " " << result[1] << " " << result[2];
 	return 0;
 }
