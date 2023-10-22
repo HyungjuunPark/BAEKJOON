@@ -1,4 +1,4 @@
-// 10บฮมฆ
+// 10ยบรรยฆ
 #include <iostream>
 using namespace std;
 
@@ -12,7 +12,6 @@ int main() {
 			cnt++;
 	}
 	cout << cnt;
-
 
 	return 0;
 }
