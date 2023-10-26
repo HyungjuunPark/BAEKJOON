@@ -13,7 +13,6 @@ int main() {
 	}
 	
 	avg /= 5;
-
 	cout << avg;
 
 	return 0;
