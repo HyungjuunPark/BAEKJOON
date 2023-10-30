@@ -1,9 +1,8 @@
-// Æù ³ëÀÌ¸¸°ú ÆÄ¸®
+// Ã†Ã¹ Â³Ã«Ã€ÃŒÂ¸Â¸Â°Ãº Ã†Ã„Â¸Â®
 #include <iostream>
 using namespace std;
 
 int main() {
-	
 	int S, T, D;
 
 	cin >> S >> T >> D;
