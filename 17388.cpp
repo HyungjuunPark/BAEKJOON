@@ -1,4 +1,4 @@
-// �ͱۿͱ� ������
+// ¿Í±Û¿Í±Û ¼þ°íÇÑ
 #include <iostream>
 using namespace std;
 
@@ -18,7 +18,6 @@ int main() {
 		else
 			cout << "Hanyang";
 	}
-
 
 	return 0;
 }
