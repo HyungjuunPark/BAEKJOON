@@ -16,6 +16,7 @@ int main() {
 			if ((A[i] + A[i + 1]) < min)
 				min = A[i] + A[i + 1];
 	}
+	
 	int sum = min * X;
 	cout << sum;
 
