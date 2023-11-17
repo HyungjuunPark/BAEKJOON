@@ -1,4 +1,4 @@
-// ÀüÀÚ·¹ÀÎÁö
+// Ã€Ã¼Ã€ÃšÂ·Â¹Ã€ÃÃÃ¶
 #include <iostream>
 using namespace std;
 
@@ -15,6 +15,5 @@ int main() {
 		else
 			cout << d + b * e;
 	
-
 	return 0;
 }
