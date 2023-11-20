@@ -1,4 +1,4 @@
-// AFC ¿úºí´ø
+// AFC Â¿ÃºÂºÃ­Â´Ã¸
 #include <iostream>
 using namespace std;
 
@@ -11,7 +11,9 @@ int main() {
 	x = a + b;
 	y = a - b;
 
-	if ((x - (int)x) != 0)
+	if ((x / 2 - (double)x / 2) != 0)
+		cout << -1;
+	else if (a < b)
 		cout << -1;
 	else
 		cout << x / 2 << " " << y / 2;
