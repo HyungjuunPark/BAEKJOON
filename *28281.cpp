@@ -10,6 +10,7 @@ int main() {
 	for (i = 0; i < N; i++) {
 		cin >> A[i];
 	}
+	
 	int min = A[0] + A[1];
 	for (i = 0; i < N; i++) {
 		if (i < N - 1)
