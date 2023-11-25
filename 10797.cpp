@@ -12,6 +12,7 @@ int main() {
 		if (day == num[i])
 			cnt++;
 	}
+
 	cout << cnt;
 
 	return 0;
