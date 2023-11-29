@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+	
 	int n[3], cnt[3] = { 0 }, i, result[3];
 
 	cin >> n[0] >> n[1] >> n[2];
