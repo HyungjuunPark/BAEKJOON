@@ -1,4 +1,4 @@
-// »ó±ÙÀÌÀÇ Ä£±¸µé
+// Â»Ã³Â±Ã™Ã€ÃŒÃ€Ã‡ Ã„Â£Â±Â¸ÂµÃ©
 #include <iostream>
 using namespace std;
 
@@ -11,6 +11,5 @@ int main() {
 			break;
 		cout << M + F << '\n';
 	}
-
 	return 0;
 }
