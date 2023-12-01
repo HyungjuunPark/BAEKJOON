@@ -1,4 +1,4 @@
-// Ã¼½º ÃÊº¸ ºê½ÇÀÌ
+// Ä‚ÅºËÅŸ Ä‚Ä˜ÅŸÂ¸ ÅŸÄ™ËÃ‡Å”Äš
 #include <iostream>
 using namespace std;
 
@@ -10,7 +10,6 @@ int main() {
 		for (j = 0; j < 8; j++) 
 			cin >> C[i][j];
 	}
-
 	for (i = 0; i < 8; i++) {
 		for (j = 0; j < 8; j++) {
 			switch (C[i][j]) {
