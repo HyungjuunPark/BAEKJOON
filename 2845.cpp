@@ -1,4 +1,4 @@
-// ÆÄÆ¼°¡ ³¡³ª°í ³­ µÚ
+// Ã†Ã„Ã†Â¼Â°Â¡ Â³Â¡Â³ÂªÂ°Ã­ Â³Â­ ÂµÃš
 #include <iostream>
 using namespace std;
 
@@ -10,6 +10,5 @@ int main() {
 		cin >> n[i];
 	for (i = 0; i < 5; i++) 
 		cout << n[i] - a * b << " ";
-
 	return 0;
 }
