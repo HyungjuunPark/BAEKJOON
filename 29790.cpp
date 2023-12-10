@@ -1,10 +1,9 @@
-// юс╫╨юг ╦чюлгцде
+// ц─ц⌠б╫б╨ц─ц┤ б╦ц·ц─ц▄ц┤ц┐ц└ц┘
 #include <iostream>
 using namespace std;
 
 int main() {
 	int N, U, L;
-
 	cin >> N >> U >> L;
 
 	if (N >= 1000) {
