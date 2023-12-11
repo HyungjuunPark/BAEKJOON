@@ -1,4 +1,4 @@
-// °úÀÚ
+// Â°ÃºÃ€Ãš
 #include <iostream>
 using namespace std;
 
@@ -10,7 +10,6 @@ int main() {
 		cout << 0;
 	else
 		cout << K * N - M;
-
 
 	return 0;
 }
