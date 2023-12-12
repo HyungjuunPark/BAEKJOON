@@ -1,9 +1,8 @@
-// ±âÂï N
+// Â±Ã¢Ã‚Ã¯ N
 #include <iostream>
 using namespace std;
 
 int main() {
-	
 	int N, i;
 
 	cin >> N;
