@@ -1,10 +1,9 @@
-// Æ¯º°ÇÑ ³¯
+// Ã†Â¯ÂºÂ°Ã‡Ã‘ Â³Â¯
 #include <iostream>
 using namespace std;
 
 int main() {
 	int m, d;
-
 	cin >> m >> d;
 
 	if (m > 2)
