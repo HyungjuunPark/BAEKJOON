@@ -1,10 +1,9 @@
-// аж╩Гю╖ ╪╪╟Ё
+// ц│ц√б╩ц╖ц─б╖ б╪б╪б╟бЁ
 #include <iostream>
 using namespace std;
 
 int main() {
 	int a, b, c, Max;
-
 	cin >> a >> b >> c;
 
 	if (a == b && a == c)
