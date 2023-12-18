@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-	
 	int R1, S;
 
 	cin >> R1 >> S;
