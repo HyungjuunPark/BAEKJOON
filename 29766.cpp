@@ -1,10 +1,9 @@
-// DKSH ã��
+// DKSH Ã£±â
 #include <iostream>
 using namespace std;
 
 int main() {
 	int i, cnt = 0;
-
 	char s[1000];
 
 	cin >> s;
