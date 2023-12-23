@@ -4,7 +4,6 @@
 using namespace std;
 
 int main() {
-	
 	int n, i;
 	cin >> n;
 	string* s = new string[n]();
