@@ -1,9 +1,8 @@
-// นๆวะ ผ๗มฆ
+// ยนรฆรร ยผรทรยฆ
 #include <iostream>
 using namespace std;
 
 int main() {
-
 	int L, A, B, C, D;
 	cin >> L >> A >> B >> C >> D;
 	
