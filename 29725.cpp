@@ -5,7 +5,6 @@ using namespace std;
 int main() {
 	int i, j, score = 0;
 	char C[8][8];
-
 	for (i = 0; i < 8; i++) {
 		for (j = 0; j < 8; j++) 
 			cin >> C[i][j];
