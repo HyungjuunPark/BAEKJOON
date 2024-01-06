@@ -1,9 +1,8 @@
-// ╢╨ео╟З ╩Г╟З
+// б╢б╨ц┘ц▐б╟ц╨ б╩ц╖б╟ц╨
 #include <iostream>
 using namespace std;
 
 int main() {
-
 	int h[4], x, y, r;
 
 	cin >> h[0] >> h[1] >> h[2] >> h[3];
