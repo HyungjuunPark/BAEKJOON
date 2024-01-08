@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
 	int S, K, H;
-
 	cin >> S >> K >> H;
 
 	if ((S + K + H) >= 100)
