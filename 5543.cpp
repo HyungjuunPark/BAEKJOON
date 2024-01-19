@@ -1,10 +1,9 @@
-// »ó±Ù³¯µå
+// Â»Ã³Â±Ã™Â³Â¯ÂµÃ¥
 #include <iostream>
 using namespace std;
 
 int main() {
 	int L, M, S, coke, soda, pick;
-
 	cin >> L >> M >> S >> coke >> soda;
 
 	if ((M >= L) && (S >= L))
