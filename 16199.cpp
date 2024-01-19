@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
 	int B[3], S[3], M_age, S_age, Y_age;
-
 	cin >> B[0] >> B[1] >> B[2];
 	cin >> S[0] >> S[1] >> S[2];
 
