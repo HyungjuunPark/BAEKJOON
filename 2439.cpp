@@ -1,10 +1,9 @@
-// º° Âï±â - 2
+// ÂºÂ° Ã‚Ã¯Â±Ã¢ - 2
 #include <iostream>
 using namespace std;
 
 int main() {
 	int i, j, n;
-
 	cin >> n;
 
 	for (i = 0; i < n; i++) {
