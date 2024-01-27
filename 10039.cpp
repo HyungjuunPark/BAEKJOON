@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-	
 	int score[5], avg = 0, i;
 
 	for (i = 0; i < 5; i++) {
