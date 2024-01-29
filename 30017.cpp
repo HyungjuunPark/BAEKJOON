@@ -1,9 +1,8 @@
-// ДЎБо№ц°Е ёёµй±в
+// Г„ВЎГЃГ®В№Г¶В°Г… ВёВёВµГ©В±Гў
 #include <iostream>
 using namespace std;
 
 int main() {
-
 	int A, B;
 
 	cin >> A >> B;
