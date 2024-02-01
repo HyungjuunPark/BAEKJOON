@@ -1,9 +1,8 @@
-// ¾ËÆÄºª °³¼ö
+// Â¾Ã‹Ã†Ã„ÂºÂª Â°Â³Â¼Ã¶
 #include <iostream>
 using namespace std;
 
 int main() {
-
 	int i, j, cnt[26] = { 0 };
 	string S;
 
