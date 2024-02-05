@@ -3,3 +3,5 @@
 2) 시, 분, 초 계산 문제 -> 초단위로 통일
 
 3) 아스키코드 사용 시 문자 <-> 정수 간 입출력 변환 가능
+
+4) cin, cout 사용 시 ios::sync_with_stdio(0), cin.tie(0) 사용 -> 사용했을 경우 printf, scanf 금지
