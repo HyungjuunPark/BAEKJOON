@@ -1,4 +1,4 @@
-// º° Âï±â - 7
+// ÂºÂ° Ã‚Ã¯Â±Ã¢ - 7
 #include <iostream>
 using namespace std;
 
@@ -25,7 +25,6 @@ int main() {
                 cout << '*';
         }
         cout << '\n';
-    }
-       
+    }  
     return 0;
 }
