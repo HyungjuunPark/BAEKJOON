@@ -5,7 +5,6 @@ using namespace std;
 int main() {
 	//코드를 좀 더 단순화 해보자
 	int N, P, result;
-
 	cin >> N >> P;
 
 	if (P > 2000) {
