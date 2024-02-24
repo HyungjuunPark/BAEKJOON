@@ -6,7 +6,6 @@ int main() {
 	//코드를 좀 더 단순화 해보자
 	int N, P, result;
 	cin >> N >> P;
-
 	if (P > 2000) {
 		if (N >= 20) {
 			result = (P * 3 / 4 < P - 2000) ? P * 3 / 4 : P - 2000;
