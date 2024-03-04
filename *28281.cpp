@@ -20,6 +20,5 @@ int main() {
 	
 	int sum = min * X;
 	cout << sum;
-
 	return 0;
 }
