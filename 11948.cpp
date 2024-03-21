@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
 	int A[4], B[2], sum = 0, i, tmp;
-
 	for (i = 0; i < 4; i++)
 		cin >> A[i];
 	cin >> B[0] >> B[1];
