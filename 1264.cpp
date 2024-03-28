@@ -1,10 +1,9 @@
-// ¸ðÀ½ÀÇ °³¼ö
+// Â¸Ã°Ã€Â½Ã€Ã‡ Â°Â³Â¼Ã¶
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main() {
-
 	while (1) {
 		string st;
 		getline(cin, st);
