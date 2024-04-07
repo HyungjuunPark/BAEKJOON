@@ -7,7 +7,6 @@ int main() {
 	cin >> N;
 	int* A = new int[N]();
 	int* B = new int[N]();
-
 	for (i = 0; i < N; i++) 
 		cin >> A[i];
 	for (i = 0; i < N; i++)
