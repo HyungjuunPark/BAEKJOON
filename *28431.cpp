@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-	
 	int i, sock[5], cnt[3] = { 0 }, tmp[3];
 
 	for (i = 0; i < 5; i++) 
