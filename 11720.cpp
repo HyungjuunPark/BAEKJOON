@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-	
 	int n, i, sum = 0;
 
 	cin >> n;
