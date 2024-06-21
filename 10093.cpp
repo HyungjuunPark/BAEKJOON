@@ -1,4 +1,4 @@
-// ¼ıÀÚ
+// Â¼Ã½Ã€Ãš
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -18,7 +18,6 @@ int main() {
             cout << i + 1 << " ";
     }
    
-
     return 0;
 }
 
