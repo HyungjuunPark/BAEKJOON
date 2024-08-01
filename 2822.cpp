@@ -1,4 +1,4 @@
-// Á¡¼ö °è»ê
+// ì ìˆ˜ ê³„ì‚°
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -8,10 +8,10 @@ int main() {
 
     for (int i = 0; i < 8; i++) {
         cin >> arr[i];
-        idx[i] = i + 1;  // ÀÎµ¦½º¸¦ 1ºÎÅÍ ½ÃÀÛÇÏ°Ô ¼³Á¤
+        idx[i] = i + 1;  // ì¸ë±ìŠ¤ë¥¼ 1ë¶€í„° ì‹œìž‘í•˜ê²Œ ì„¤ì •
     }
-
-    // ¹öºí Á¤·ÄÀ» ÀÌ¿ëÇÏ¿© Á¡¼ö¸¦ ³»¸²Â÷¼ø Á¤·ÄÇÏ°í, ÀÎµ¦½ºµµ °°ÀÌ Á¤·Ä
+    
+    // ë²„ë¸” ì •ë ¬ì„ ì´ìš©í•˜ì—¬ ì ìˆ˜ë¥¼ ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬í•˜ê³ , ì¸ë±ìŠ¤ë„ ê°™ì´ ì •ë ¬
     for (int i = 0; i < 8; i++) {
         for (int j = 0; j < 7 - i; j++) {
             if (arr[j] < arr[j + 1]) {
@@ -21,12 +21,12 @@ int main() {
         }
     }
 
-    // »óÀ§ 5°³ Á¡¼öÀÇ ÇÕ °è»ê
+    // ìƒìœ„ 5ê°œ ì ìˆ˜ì˜ í•© ê³„ì‚°
     for (int i = 0; i < 5; i++) {
         sum += arr[i];
     }
 
-    // »óÀ§ 5°³ Á¡¼öÀÇ ÀÎµ¦½º¸¦ ¿À¸§Â÷¼øÀ¸·Î Á¤·Ä
+    // ìƒìœ„ 5ê°œ ì ìˆ˜ì˜ ì¸ë±ìŠ¤ë¥¼ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì •ë ¬
     sort(idx, idx + 5);
 
     cout << sum << '\n';
@@ -34,6 +34,5 @@ int main() {
         cout << idx[i] << " ";
     }
     cout << '\n';
-
     return 0;
 }
