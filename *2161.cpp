@@ -6,7 +6,6 @@ using namespace std;
 int main() {
     int n;
     cin >> n;
-
     queue<int> q;
 
     // 1부터 n까지의 카드를 큐에 넣는다.
