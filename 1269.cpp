@@ -1,4 +1,4 @@
-// ´ëÄª Â÷ÁıÇÕ
+// ëŒ€ì¹­ ì°¨ì§‘í•©
 #include <iostream>
 #include <unordered_set>
 using namespace std;
@@ -6,19 +6,18 @@ using namespace std;
 int main() {
     int a, b;
     cin >> a >> b;
-
     unordered_set<int> A;
     unordered_set<int> B;
 
     int x;
 
-    // ÀÔ·ÂÀ» ¹Ş¾Æ¼­ ÁıÇÕ A¿¡ »ğÀÔ
+    // ì…ë ¥ì„ ë°›ì•„ì„œ ì§‘í•© Aì— ì‚½ì…
     for (int i = 0; i < a; i++) {
         cin >> x;
         A.insert(x);
     }
 
-    // ÀÔ·ÂÀ» ¹Ş¾Æ¼­ ÁıÇÕ B¿¡ »ğÀÔ
+    // ì…ë ¥ì„ ë°›ì•„ì„œ ì§‘í•© Bì— ì‚½ì…
     for (int j = 0; j < b; j++) {
         cin >> x;
         B.insert(x);
@@ -26,10 +25,10 @@ int main() {
 
     int cnt = a + b;
 
-    // A¿Í BÀÇ ±³ÁıÇÕÀÇ Å©±â ±¸ÇÏ±â
+    // Aì™€ Bì˜ êµì§‘í•©ì˜ í¬ê¸° êµ¬í•˜ê¸°
     for (const int& elem : A) {
         if (B.find(elem) != B.end()) {
-            cnt -= 2; // ±³ÁıÇÕÀÇ °¢ ¿ø¼Ò¸¶´Ù cnt¸¦ 2¸¸Å­ °¨¼Ò
+            cnt -= 2; // êµì§‘í•©ì˜ ê° ì›ì†Œë§ˆë‹¤ cntë¥¼ 2ë§Œí¼ ê°ì†Œ
         }
     }
 
