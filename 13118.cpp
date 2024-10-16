@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
 	int h[4], x, y, r;
-
 	cin >> h[0] >> h[1] >> h[2] >> h[3];
 	cin >> x >> y >> r;
 
