@@ -1,4 +1,4 @@
-// ½º³×ÀÌÅ©¹öµå
+// Â½ÂºÂ³Ã—Ã€ÃŒÃ…Â©Â¹Ã¶ÂµÃ¥
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -20,7 +20,6 @@ int main() {
             cnt++;
         }
     }
-
     cout << L;
 
     return 0;
