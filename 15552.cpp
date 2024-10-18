@@ -1,4 +1,4 @@
-// ºü¸¥ A+B
+// ÂºÃ¼Â¸Â¥ A+B
 #include <iostream>
 using namespace std;
 
@@ -15,6 +15,5 @@ int main() {
 
         cout << A + B << "\n";
     }
-    
     return 0;
 }
