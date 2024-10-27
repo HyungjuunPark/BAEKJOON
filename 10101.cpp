@@ -15,6 +15,5 @@ int main() {
 	}
 	else
 		cout << "Error";
-
 	return 0;
 }
