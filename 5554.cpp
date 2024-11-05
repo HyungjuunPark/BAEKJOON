@@ -14,6 +14,5 @@ int main() {
 
 	cout << x << '\n' << y;
 
-
 	return 0;
 }
