@@ -8,7 +8,6 @@ int main() {
 		cin >> t[i];
 		sum += t[i];
 	}
-
 	x = sum / 60;
 	y = sum % 60;
 
