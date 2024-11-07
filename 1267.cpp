@@ -18,6 +18,5 @@ int main() {
         cout << "M " << M;
     else
         cout << "Y M " << Y;
-    
     return 0;
 }
