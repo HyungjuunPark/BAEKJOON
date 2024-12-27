@@ -1,4 +1,4 @@
-// ³¯Â¥ °è»ê
+// 날 계산
 #include <iostream>
 #include <string>
 using namespace std;
