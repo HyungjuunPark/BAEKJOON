@@ -11,7 +11,7 @@ int main() {
         cin >> x >> y;
         for (int i = y; i < y + 10; i++) {
             for (int j = x; j < x + 10; j++) {
-                if (!a[i][j]) {
+                if (!a[i][j]) { // a[i][j] == 0
                     cnt++;
                     a[i][j] = 1;
                 }
