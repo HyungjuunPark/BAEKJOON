@@ -1,14 +1,14 @@
-// Çà¿îÀÇ Æ¼ÄÏ
+// í–‰ìš´ì˜ í‹°ì¼“
 #include <iostream>
 #include <string>
 #include <vector>
 using namespace std;
 
-// ¹®ÀÚ¿­ÀÇ Æ¯Á¤ ±¸°£ [start, end)ÀÇ ÇÕÀ» °è»ê
+// ë¬¸ìì—´ì˜ íŠ¹ì • êµ¬ê°„ [start, end)ì˜ í•©ì„ ê³„ì‚°
 int calculateSum(const string& str, int start, int end) {
     int sum = 0;
     for (int i = start; i < end; ++i) {
-        sum += str[i] - '0'; // ¼ıÀÚ·Î º¯È¯ ÈÄ ÇÕ»ê
+        sum += str[i] - '0'; // ìˆ«ìë¡œ ë³€í™˜ í›„ í•©ì‚°
     }
     return sum;
 }
@@ -19,11 +19,11 @@ int main() {
     int n = number.size();
     int maxLength = 0;
 
-    // ±æÀÌ¸¦ 2ºÎÅÍ n±îÁö Áõ°¡½ÃÅ°¸ç È®ÀÎ
-    for (int len = 2; len <= n; len += 2) { // ±æÀÌ´Â Ç×»ó Â¦¼ö¸¸ °¡´É
+    // ê¸¸ì´ë¥¼ 2ë¶€í„° nê¹Œì§€ ì¦ê°€ì‹œí‚¤ë©° í™•ì¸
+    for (int len = 2; len <= n; len += 2) { // ê¸¸ì´ëŠ” í•­ìƒ ì§ìˆ˜ë§Œ ê°€ëŠ¥
         for (int i = 0; i + len <= n; ++i) {
             int mid = i + len / 2;
-            // ¿ŞÂÊ ±¸°£ÀÇ ÇÕ°ú ¿À¸¥ÂÊ ±¸°£ÀÇ ÇÕ ºñ±³
+            // ì™¼ìª½ êµ¬ê°„ì˜ í•©ê³¼ ì˜¤ë¥¸ìª½ êµ¬ê°„ì˜ í•© ë¹„êµ
             int leftSum = calculateSum(number, i, mid);
             int rightSum = calculateSum(number, mid, i + len);
             if (leftSum == rightSum) {
