@@ -1,4 +1,4 @@
-// ¾Ë·Ï´Ş·Ï ¾Ş¹«»õ
+// ì•Œë¡ë‹¬ë¡ ì•µë¬´ìƒˆ
 #include <iostream>
 #include <vector>
 #include <set>
@@ -10,11 +10,11 @@ using namespace std;
 int main() {
     string father_input, mother_input;
 
-    // ÀÔ·Â ¹Ş±â
+    // ì…ë ¥ ë°›ê¸°
     getline(cin, father_input);
     getline(cin, mother_input);
 
-    // °ø¹éÀ¸·Î ¹®ÀÚ¿­À» ³ª´©¾î ¸®½ºÆ®·Î º¯È¯
+    // ê³µë°±ìœ¼ë¡œ ë¬¸ìì—´ì„ ë‚˜ëˆ„ì–´ ë¦¬ìŠ¤íŠ¸ë¡œ ë³€í™˜
     vector<string> father_color_list, mother_color_list;
     stringstream father_ss(father_input), mother_ss(mother_input);
     string color;
@@ -22,15 +22,15 @@ int main() {
     while (father_ss >> color) father_color_list.push_back(color);
     while (mother_ss >> color) mother_color_list.push_back(color);
 
-    // µÎ ¸®½ºÆ® ÇÕÄ¡±â
+    // ë‘ ë¦¬ìŠ¤íŠ¸ í•©ì¹˜ê¸°
     vector<string> all_color_list = father_color_list;
     all_color_list.insert(all_color_list.end(), mother_color_list.begin(), mother_color_list.end());
 
-    // Áßº¹ Á¦°Å
+    // ì¤‘ë³µ ì œê±°
     set<string> unique_colors(all_color_list.begin(), all_color_list.end());
     all_color_list.assign(unique_colors.begin(), unique_colors.end());
 
-    // ¸ğµç »ö Á¶ÇÕ »ı¼º
+    // ëª¨ë“  ìƒ‰ ì¡°í•© ìƒì„±
     vector<pair<string, string>> color_combination_list;
     int length = all_color_list.size();
     for (int i = 0; i < length; i++) {
@@ -39,10 +39,10 @@ int main() {
         }
     }
 
-    // »çÀü ¼øÀ¸·Î Á¤·Ä
+    // ì‚¬ì „ ìˆœìœ¼ë¡œ ì •ë ¬
     sort(color_combination_list.begin(), color_combination_list.end());
 
-    // °á°ú Ãâ·Â
+    // ê²°ê³¼ ì¶œë ¥
     for (const auto& combination : color_combination_list) {
         cout << combination.first << " " << combination.second << endl;
     }
