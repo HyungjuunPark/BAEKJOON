@@ -1,4 +1,4 @@
-// ��ȣȭ
+// 복호화
 #include <iostream>
 #include <string>
 #include <algorithm>
