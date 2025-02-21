@@ -1,4 +1,4 @@
-// ¼Ò¼ö
+// ì†Œìˆ˜
 #include <iostream>
 using namespace std;
 
