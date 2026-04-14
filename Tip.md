@@ -19,4 +19,3 @@
 7) cin.tie(0);는 cin과 cout의 자동 연결을 끊어 cin 입력 시 cout이 자동으로 flush되는 것을 방지
 
 
-
